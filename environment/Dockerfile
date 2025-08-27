@@ -3,11 +3,7 @@ ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/c1-vscode:4.20.0-pylint2023.10.1-copilot1.143.601
 
 ARG DEBIAN_FRONTEND=noninteractive
-# ARG API_KEY
-# ARG API_SECRET
-
 ARG GIT_ASKPASS
-# ARG GIT_ACCESS_TOKEN
 COPY git-askpass /
 
 RUN conda install -y \
