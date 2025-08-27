@@ -1,0 +1,4 @@
+metadata_version: 1
+name: Jinho_base build_test_01
+description: Simply adding RUN --mount=type=secret,id=secrets . /run/secrets/secrets
+  to the docker file, without removing GIT_ACCESS_TOKEN and AWS args
