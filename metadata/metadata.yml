@@ -1,4 +1,6 @@
 metadata_version: 1
-name: Jinho_base build_test_01
+name: Jinho_base (CO3.8)
 description: Simply adding RUN --mount=type=secret,id=secrets . /run/secrets/secrets
   to the docker file, without removing GIT_ACCESS_TOKEN and AWS args
+authors:
+- name: Jinho Kim
