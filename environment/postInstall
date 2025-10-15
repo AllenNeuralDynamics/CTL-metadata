@@ -18,7 +18,7 @@ cd /
 git clone https://github.com/AllenNeuralDynamics/lamf-analysis
 cd lamf-analysis
 pip install -e .    
-
+git pull
 
 # install updated version of code-server
 VERSION=4.96.4
